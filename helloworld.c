@@ -1,4 +1,5 @@
 #include <stdio.h>  // Needed to output to the world
+#include <unistd.h>  // Needed to output to the world
 
 // define the parameter list and the body yourself...
 static void add_and_multi_with_4_parameters (/* TODO */)
@@ -19,6 +20,8 @@ int main(void)
     int b = -5;
     int c;
     int d;
+
+    sleep(10);
 
     for (int z = 0; z < a; z++)
     {
